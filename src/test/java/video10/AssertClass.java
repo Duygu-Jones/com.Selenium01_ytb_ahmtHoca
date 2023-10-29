@@ -47,7 +47,7 @@ public class AssertClass {
         WebElement productName= driver.findElement(By.xpath("(//h2)[3]"));
         Assert.assertTrue(productName.isDisplayed());
 
-        //9. Verify that detail detail is visible: product name, category,
+        //9. Verify that detail is visible: product name, category,
         WebElement categoryElement= driver.findElement(By.xpath("//*[text()='Category: Women > Tops']"));
         Assert.assertTrue(categoryElement.isDisplayed());
         driver.close();
